@@ -1,7 +1,14 @@
 name = "Onco_cardio_julia_health"
 authors = ["Jakub Mitura"]
-[compat]
-julia = "1.10.3"
-DrWatson = "2.15.0"
+
 [deps]
+DBInterface = "a10d1c49-ce27-4219-8d33-6db1a4562965"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+HealthSampleData = "b8464e9a-ae38-46a4-977b-86f00930f698"
+OMOPCDMCohortCreator = "f525a15e-a73f-4eef-870f-f901257eae22"
+SQLite = "0aa819cd-b072-5ff4-a722-6bc24af294d9"
+
+[compat]
+DrWatson = "2.15.0"
+julia = "1.10.3"

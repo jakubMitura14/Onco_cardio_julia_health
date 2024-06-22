@@ -1,4 +1,7 @@
+
 using DrWatson
+
+
 @quickactivate "Onco_cardio_julia_health"
 
 # Here you may include files from the source directory
@@ -17,3 +20,7 @@ issues on GitHub, submitting feature requests,
 or even opening your own Pull Requests!
 """
 )
+TUTORIAL> add OMOPCDMCohortCreator
+TUTORIAL> add SQLite
+TUTORIAL> add DataFrames
+TURORIAL> add HealthSampleData
